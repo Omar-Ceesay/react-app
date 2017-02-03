@@ -27111,14 +27111,6 @@ var _profile = __webpack_require__(114);
 
 var _profile2 = _interopRequireDefault(_profile);
 
-var _authed = __webpack_require__(238);
-
-var _authed2 = _interopRequireDefault(_authed);
-
-var _mainAuth = __webpack_require__(239);
-
-var _mainAuth2 = _interopRequireDefault(_mainAuth);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27147,8 +27139,7 @@ var App = function (_Component) {
           { path: '/', component: _layout2.default },
           _react2.default.createElement(_reactRouter.IndexRoute, { component: _main2.default }),
           _react2.default.createElement(_reactRouter.Route, { path: 'login', component: _login2.default }),
-          _react2.default.createElement(_reactRouter.Route, { path: 'signup', component: _signup2.default }),
-          _react2.default.createElement(_reactRouter.Route, { path: '/auth/main', component: _mainAuth2.default })
+          _react2.default.createElement(_reactRouter.Route, { path: 'signup', component: _signup2.default })
         )
       );
     }
@@ -27158,20 +27149,6 @@ var App = function (_Component) {
 }(_react.Component);
 
 _reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('app'));
-
-/***/ }),
-/* 238 */
-/***/ (function(module, exports) {
-
-"use strict";
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\A0C6H1\\git\\node-auth-signup\\public\\app\\components\\authed.js'\n    at Error (native)");
-
-/***/ }),
-/* 239 */
-/***/ (function(module, exports) {
-
-"use strict";
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\A0C6H1\\git\\node-auth-signup\\public\\app\\components\\mainAuth.js'\n    at Error (native)");
 
 /***/ })
 /******/ ]);

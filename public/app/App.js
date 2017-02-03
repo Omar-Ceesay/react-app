@@ -7,8 +7,6 @@ import Layout from './components/layout.js';
 import Login from './components/login.js';
 import Signup from './components/signup.js';
 import Profile from './components/profile.js';
-import Authed from './components/authed.js';
-import Auth from './components/mainAuth.js';
 
 class App extends Component {
 
@@ -19,7 +17,6 @@ class App extends Component {
           <IndexRoute component={Main}/>
           <Route path="login" component={Login}></Route>
           <Route path="signup" component={Signup}></Route>
-          <Route path="/auth/main" component={Auth}></Route>
         </Route>
       </Router>
     )
